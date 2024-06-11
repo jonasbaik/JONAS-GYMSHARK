@@ -1,0 +1,172 @@
+body {
+    background-color: #F0EEED;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #FC6736;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    color: #000000;
+    cursor:pointer;
+}
+
+.logo:hover {
+    color: #000000;
+    transform: scale(1.2);
+    transition: all ease .5s;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset:8px;
+}
+
+.title-hero {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.title-hero h1 {
+    color: #FC6736;
+}
+
+.title-hero p {
+    color: black;
+}
+
+
+
+.image-hero img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px orange;
+}
+
+.image-hero img:hover {
+    transform: scale(.8);
+    transition: 2s;
+}
+
+#about {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#about h2 {
+    padding-top: 40px;
+    color:#FC6736 ;
+}
+
+hr {
+    width: 30%;
+}
+
+#menu {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#menu h2 {
+    padding-top: 40px;
+    color: #FC6736 ;
+}
+
+.cards {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color:#FC6736 ;
+    width: 350px;
+    height: 375PX;
+    border: 1px solid #65B741;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card img:hover {
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.container {
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 30px;
+    background-color: yellow;
+    margin-left: 105px;
+    border: 1px solid green;
+    padding: 10px 40 px;
+    border-radius: 12 px;
+    box-shadow: 1px 2px 4px ;
+}
+. card a:hover {
+    background-color: black;
+    
+}
+
+.card p {
+    padding-bottom: 20px;
+}
+
+#contact {
+    width: 90%;
+    margin: 20px auto;
+}
+#contact h2 {
+    text-align: center;
+}
+
+.text-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer p {
+    text-align: center;
+    padding: 25px;
+    color: whitesmoke;
+    background-color:#FC6736 ;
+}
